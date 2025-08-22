@@ -1,3 +1,4 @@
+
 // // import { Legend } from 'chart.js';
 // import React, { useEffect, useState } from 'react';
 // import { Line } from 'react-chartjs-2';
@@ -117,7 +118,6 @@ import {
   TimeScale, // ✅ needed for time axis
 } from "chart.js";
 import "chartjs-adapter-date-fns"; // ✅ required for time scale
-import { format } from "date-fns";
 
 ChartJS.register(
   CategoryScale,
